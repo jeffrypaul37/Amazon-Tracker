@@ -1,5 +1,5 @@
 # Amazon-Price-Tracker
-A web scraper designed to track Amazon prices and send notifications when there is a price drop.
+This is a web scraper designed to track Amazon prices and send notifications when there is a price drop.
 
 # How It Works
 Let's demonstrate how this works by tracking a sample product from Amazon.
@@ -19,6 +19,12 @@ The retrieved product prices and corresponding timestamps are stored in a CSV fi
 The data from the CSV file is plotted as a live graph.
 
 ![Screenshot (486)](https://user-images.githubusercontent.com/61287560/190405066-74784c4f-da32-475d-89f5-89235b47ae07.png)
+
+# Tracking Multiple Products
+
+It's also possible to track multiple products prices simultaneously using this scraper.
+
+
 
 
 
