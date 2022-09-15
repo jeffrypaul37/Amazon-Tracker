@@ -26,6 +26,8 @@ It's also possible to track multiple products prices simultaneously using this s
 
 When a price drop is detected, a mail is sent, notifying us of the price drop.
 
+![Screenshot (489)](https://user-images.githubusercontent.com/61287560/190417012-9cc78013-f069-4917-94c6-1030a1ba0362.png)
+
 
 
 
