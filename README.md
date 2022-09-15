@@ -11,6 +11,8 @@ The web page of the product you want to track is fetched from the web.
 
 Once the target page has been retrieved by the scraper, it begins to fetch pricing data from the web page and you'll be able to view the product prices scraped every couple of seconds as follows:
 
+![image](https://user-images.githubusercontent.com/61287560/190401069-193fc6ac-4ae1-49fd-b37c-83a9cf05cf35.png)
+
 
 
 
