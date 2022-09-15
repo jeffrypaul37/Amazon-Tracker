@@ -24,6 +24,8 @@ The data from the CSV file is plotted as a live graph.
 
 It's also possible to track multiple products prices simultaneously using this scraper.
 
+![Screenshot (487)](https://user-images.githubusercontent.com/61287560/190409463-1b96392b-c29e-494c-ac41-35a9508af5f6.png)
+
 
 
 
