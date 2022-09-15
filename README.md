@@ -5,7 +5,7 @@ A web scraper designed to track Amazon prices and send notifications when there 
 
 The web page of the product you want to track is fetched from the web. 
 
-![image](https://user-images.githubusercontent.com/61287560/190399910-f21840e5-f556-464e-aa94-d8f1a42a63c3.png)
+![image](https://user-images.githubusercontent.com/61287560/190400932-3b3ece0a-0a64-498e-8a5a-cf2048d3746b.png)
  
 
 
