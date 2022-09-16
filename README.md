@@ -54,6 +54,17 @@ To install a library, open Powershell and enter
 
 # Running The Code
 
+* Download the files named Web Scraper.py and Live Graph.py 
+* Place them in a separate folder
+* Create an empty subfolder named 'data' and place it in this folder. Here's where the CSV files will be generated.
+* Run the file named Web Scraper.py and then simultaneously run Live Graph.py
+* You'll now see the live graph being generated from the CSV file data which was scraped from the web.
+* You can track any Amazon product's prices by replacing the links in the code with your own.
+
+# Future Enhancement
+
+* The code can be further expanded to track any number of products.
+* A cloud service can be used to run the script 24/7 for more accurate results.
 
 
 
