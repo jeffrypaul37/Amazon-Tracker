@@ -31,11 +31,11 @@ def send_mail(url,title):
         server.ehlo()
         server.starttls()
         server.ehlo()
-        server.login('sjeffrypaulgcecse@gmail.com','ishptqilcfmkllml')
+        server.login('yourmail@gmail.com','password')
         subject ='Attention ! Price has dropped !'+'\n'+title.strip()
         body='Check the link!! '+url
         msg=f"subject:{subject}\n\n{body}"
-        server.sendmail('sjeffrypaulgcecse@gmail.com','sjeffrypaulgcecse@gmail.com',msg)
+        server.sendmail('yourmail@gmail.com','yourmail@gmail.com',msg)
         print("Email sent!")
         
         
