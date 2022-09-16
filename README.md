@@ -28,6 +28,32 @@ When a price drop is detected, we are notified of it via email.
 
 ![Screenshot (489)](https://user-images.githubusercontent.com/61287560/190417012-9cc78013-f069-4917-94c6-1030a1ba0362.png)
 
+# Prerequisites
+
+Ensure that you have Python and the following libraries installed:
+
+* requests
+* dataclasses
+* numpy
+* time
+* matplotlib
+* BeautifulSoup
+* pandas
+* datetime
+* smtplib
+* csv
+* re
+* DictWriter
+* random
+* count
+* threading
+* os
+
+To install a library, open Powershell and enter
+> pip install < name of the library >
+
+# Running The Code
+
 
 
 
