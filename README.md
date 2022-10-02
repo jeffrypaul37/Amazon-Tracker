@@ -52,6 +52,9 @@ Ensure that you have Python and the following libraries installed:
 To install a library, open Powershell and enter
 > pip install < name of the library >
 
+You can use the following command as well, if you are starting fresh.
+> pip install -r requirements.txt
+
 # Running The Code
 
 * Download the files named Web Scraper.py and Live Graph.py 
