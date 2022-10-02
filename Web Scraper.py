@@ -70,7 +70,7 @@ def check_price(url,Price):
         fieldnames = ["x_value", "total_1", "total_2"]
         threadLocalVariable = threading.local()
         threadLocalVariable.productName = title.strip()[:20]
-        projectDir=os.path.dirname(__file__)
+        projectDir=os.path.dirname(os.path.abspath("__file__"))
                                 
                           
         
@@ -104,7 +104,8 @@ def check_price(url,Price):
                         flag=0
                 x_value = time_stamp
                 total_1 = converted_price
-                with open(projectDir+'\\data\\'+threadLocalVariable.productName+'.csv', 'a') as csv_file:
+                file_name = threadLocalVariable.productName+'.csv'
+                with open(os.path.join(projectDir,'data',file_name), 'a') as csv_file:
                         csv_writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
                         info = {
                         "x_value": x_value,

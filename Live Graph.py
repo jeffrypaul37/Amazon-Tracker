@@ -11,13 +11,15 @@ x_vals = []
 y_vals = []
 
 index = count()
-dataDir=os.path.dirname(__file__)+'\\data\\'
+projectDir=os.path.dirname(os.path.abspath("__file__"))
+dataDir=os.path.join(projectDir,'data')
 fileNames = os.listdir(dataDir)
 def animate(i):
     charts=[]
     plt.cla()
     for file in fileNames:
-        df = pd.read_csv(dataDir + file, index_col = 0)
+        file_path = os.path.join(dataDir, file)
+        df = pd.read_csv(file_path, index_col = 0)
         plt.xticks(rotation=30)
         chart,_=plt.plot(df,label=file)
         charts.append(chart)
